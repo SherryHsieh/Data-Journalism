@@ -84,7 +84,24 @@ table, th, td {
 th, td {
     padding: 5px;
 }
-
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
 
 	</style>
 	</head>
@@ -123,9 +140,9 @@ th, td {
 			But not Barbie. Handler saw value in transforming a two-dimensional play experience into a three-dimensional one. Indeed, children learn through play and toys, as the tools of play, influence growth. First generation Barbie owner M.G. Lord, author of Forever Barbie, explains that to her, "Barbie was a revelation. She didn't teach us to nurture. Barbie was her own woman."
 		</p>
 
-		<p>
+		<blockquote>
 			Barbie has the power to reinvent herself by changing her outfit.
-		</p>
+		</blockquote>
 
 		<p>
 			Initially introduced as the "teenage fashion doll,"" Barbie was a registered nurse and flight attendant in 1961, an astronaut in 1965, a surgeon in 1973, a veterinarian in 1985 and a dentist in 1997. 
@@ -138,7 +155,7 @@ th, td {
 
 		<img class="barbietimeline" img src="graph.png">
 		<figure>
-		<figcaption><sub>Fig 2. For these nine career Barbie, minus registered nurse and flight attendants (traditionally 'women'-jobs) has altered, BLS data show continued growth. </sub></figcaption>
+		<figcaption><sub>Fig 2. For these nine career Barbie, minus registered nurse and flight attendants (traditionally 'women'-jobs), BLS data show continued growth. </sub></figcaption>
 		</figure>
 
 		<p>
